@@ -1,0 +1,22 @@
+{
+  "name": "rules-engine-scatter-gather",
+  "version": "1.0.0",
+  "main": "index.mts",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.mts",
+		"wrong": "tsx wrong.mts",
+		"rules": "tsx rulesEngine.mts",
+		"scatter": "tsx scatterGather.mts",
+    "test": "tsx test/index.mts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.5.4"
+  }
+}
